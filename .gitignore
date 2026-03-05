@@ -1,0 +1,14 @@
+output/*
+!output/.gitkeep
+
+models/*
+!models/.gitkeep
+
+input_audio/*
+!input_audio/.gitkeep
+
+pipeline//pycache/
+pipeline//pycache/*
+
+*.pyc
+pycache/
