@@ -117,5 +117,3 @@ See the [COPYING](./COPYING) file for details.
 This software is provided **“as is”**, without any express or implied warranty. In no event shall the author be held liable for any damages arising from the use of this software.
 
 © 2026 Seweryn Polec. All rights reserved.
-
-```
