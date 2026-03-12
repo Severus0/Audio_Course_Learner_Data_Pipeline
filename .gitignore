@@ -9,6 +9,13 @@ input_audio/*
 
 pipeline//pycache/
 pipeline//pycache/*
+.pipeline_state.json
 
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+venv/
 *.pyc
 pycache/
