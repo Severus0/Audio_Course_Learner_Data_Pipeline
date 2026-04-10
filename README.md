@@ -24,6 +24,8 @@ If you are a developer interested in **Audio Processing**, **AI Data Pipelines**
 
 Whether it's writing a better prompt for the LLM filtering stage, using a different transcription engine, or implementing better audio-silence detection—feel free to fork this project, experiment, and reach out. If the 95% accuracy threshold can be cracked, I will gladly resume development on the ecosystem.
 
+If you manage to solve the automatic transcription bottleneck, please open a PR or let me know. You can also join my discord for language apps I develop: https://discord.com/invite/t2zyfCq6KH
+
 ---
 
 ## ✨ Key Features (Currently Implemented)
