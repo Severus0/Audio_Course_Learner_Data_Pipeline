@@ -1,14 +1,32 @@
 ***
 
-# Audio Course Learner Data Pipeline
+# Audio Course Learner — Data Pipeline 🛠️🎧
 
 **Audio Course Learner** is an Android application that helps users learn languages via interactive audio or video courses. It pauses at appropriate moments to capture the user’s response using **speech-to-text**, aligning user input with the original lesson media through **timestamped lesson files**.
 
-This **data pipeline** converts course media into **timestamped text annotations** and packages everything into a **ready-to-import `.zip`** for the app. It now features a **Graphical User Interface (GUI)** and **1-click setup**.
+📱 **Main App Repository:**[Audio_Course_Learner](https://github.com/Severus0/Audio_Course_Learner)
+
+This **data pipeline** is the companion tool designed to convert raw course media into **timestamped text annotations** and package everything into a **ready-to-import `.zip`** for the Android app. It features a Graphical User Interface (GUI) and a 1-click setup.
 
 ---
 
-## ✨ Key Features
+## 🚨 Current Project Status: PAUSED (Seeking Contributors)
+
+**Development of both this pipeline and the main Android app is currently paused.**
+
+While the pipeline successfully runs and generates the required `.zip` files, **the transcription and annotation accuracy is currently hovering between 40–80%**. Because the mobile app relies on precise timestamps and exact target phrases to grade the user's speech, this current accuracy rate requires far too much manual revision in the app's built-in editor to be practical for daily use.
+
+### The Goal: 95%+ Accuracy
+Creating interactive courses requires a near-flawless data extraction process. To justify reactivating active development on this project, the pipeline needs to hit **at least 95% accuracy**—where the vast majority of expected phrases and timestamps are correctly assigned, leaving only a few odd corrections for the user.
+
+### Can you fix this? 🤝
+If you are a developer interested in **Audio Processing**, **AI Data Pipelines**, **LLM Prompt Engineering**, or advanced **Whisper** implementations, your help is incredibly welcome! 
+
+Whether it's writing a better prompt for the LLM filtering stage, using a different transcription engine, or implementing better audio-silence detection—feel free to fork this project, experiment, and reach out. If the 95% accuracy threshold can be cracked, I will gladly resume development on the ecosystem.
+
+---
+
+## ✨ Key Features (Currently Implemented)
 
 * **1-Click Launchers:** Run `start.bat` (Windows) or `start.sh` (Mac/Linux) to automatically set up a Python environment and install dependencies.
 * **Graphical Interface:** No coding required. Select input and output folders, optionally provide an LLM model, and click **Run**.
